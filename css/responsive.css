@@ -1,0 +1,26 @@
+
+/* Small devices (phones, 0px and up) */
+@media (max-width: 600px) {
+/* Prevent horizontal scroll */
+html, body {
+    overflow-x: hidden;
+  }
+ 
+}
+
+/* Medium devices*/
+@media (min-width: 992px) and (max-width: 1024px) {
+   .menu ul{
+        gap: 8px;
+   }
+   .menu ul li a{
+        font-size: 17px;
+   }
+  }
+  
+  /* Large devices (desktops, 1025px and up) */
+  @media (min-width: 1025px) {
+    .menu ul li a{
+        font-size: 17px;
+   }
+  }

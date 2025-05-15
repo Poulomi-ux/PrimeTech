@@ -6,13 +6,49 @@ body{
     padding: 0px !important;
 }
 .topbar{
-    min-height:46px;
+    /* min-height:36px; */
     background-color: #fff;
 }
 .topmenu{
     /* min-height: 144px; */
-    background-color: var(--base-color);
+   background: linear-gradient(90deg, #096D84 0%, #0A4654 100%);
 }
 .content{
-    padding: 1rem;
+    padding: 15px;
+}
+.menu ul{
+    list-style: none;
+    display:flex;
+    gap:20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-weight: 600;
+    font-size: 19px;
+}
+.tagline span{
+    font-weight: 600;
+    color:#fff;
+}
+.video{
+    display:flex;
+    gap:5px;
+    justify-content: flex-end;
+}
+.socialicons{
+    display:flex;
+}
+.socialicons ul{
+    list-style: none;
+    display:flex;
+    gap:12px;
+    padding-left: 9px;
+}
+.socialicons ul li a{
+    text-decoration: none;
+    color:#414141;
+}
+.socialicons p{
+    font-weight: 600;
 }
