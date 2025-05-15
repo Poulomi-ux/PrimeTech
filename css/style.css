@@ -1,3 +1,6 @@
+:root{
+    --base-color:#E7473C;
+}
 body{
     margin:0px !important;
     padding: 0px !important;
@@ -5,5 +8,11 @@ body{
 .topbar{
     min-height:46px;
     background-color: #fff;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.topmenu{
+    /* min-height: 144px; */
+    background-color: var(--base-color);
+}
+.content{
+    padding: 1rem;
 }
