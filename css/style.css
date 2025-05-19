@@ -52,4 +52,8 @@ body{
 }
 .socialicons p{
     font-weight: 600;
+    margin:0px;
+}
+.socialicons ul{
+    margin-bottom: 9px;
 }
