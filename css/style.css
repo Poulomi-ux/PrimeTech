@@ -4,15 +4,15 @@
 body{
     margin:0px !important;
     padding: 0px !important;
+    overflow-x: hidden;
 }
 .topbar{
-    /* min-height:36px; */
+    height:47px;
     background-color: #fff;
 }
 .topmenu{
-    /* min-height: 144px; */
-   /* background: linear-gradient(90deg, #096D84 0%, #0A4654 100%); */
-   background-color: var(--base-color);
+    background: linear-gradient(90deg, #3551DF 0%, #36A9C9 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .content{
     padding: 15px;
@@ -56,4 +56,68 @@ body{
 }
 .socialicons ul{
     margin-bottom: 9px;
+}
+.toplist{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    justify-content: end;
+    margin-top: 13px;
+}
+.bluetag{
+    color:#0D16AF;
+    font-weight: 500;
+}
+.firstlist{
+    position:relative;
+}
+.firstlist:after{
+    position: absolute;
+    content: '';
+    height: 16px;
+    width: 2px;
+    background: #918D8D;
+    top: 5px;
+    left: 189px;
+}
+.admission_tag{
+    height:auto;
+    background-color: #02042A;
+}
+.admissionlogo{
+    text-align: center;
+}
+.admissionlogo span{
+    font-size: 23px;
+    font-weight: 600;
+}
+/* .candidateform{
+    background-color: #FFD859;
+}
+.candidateform h2{
+    text-transform: uppercase;
+} */
+.banner{
+    background: url(https://www.onlinemanipal.com/wp-content/themes/flamingo/images/lp-smu/Banner_1.png.webp) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    aspect-ratio: 1512 / 503;
+    background-position: right bottom;
+}
+.text-box1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4vw;
+}
+.prime-head{
+    color:#09143E;
+    font-size: 3.4vw !important;
+    letter-spacing: 2.03px !important;
+    line-height: 4.3vw !important;
+    font-weight: 600;
+}
+.prime-sub{
+    font-style: italic;
+    font-size: 3vw !important;
+    font-family: Sabon LT Std;
 }
