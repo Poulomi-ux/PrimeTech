@@ -6,6 +6,14 @@ body{
     padding: 0px !important;
     overflow-x: hidden;
 }
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */
+}
+.maincontent {
+    flex: 1; /* Take up remaining space */
+}
 .topbar{
     height:47px;
     background-color: #fff;
@@ -98,11 +106,17 @@ body{
     text-transform: uppercase;
 } */
 .banner{
-    background: url(https://www.onlinemanipal.com/wp-content/themes/flamingo/images/lp-smu/Banner_1.png.webp) !important;
+    background: url(../img/prime-banner.png) !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
     aspect-ratio: 1512 / 503;
     background-position: right bottom;
+    
+}
+.overlay{
+    /* background-image: url(../img/overlay.png);
+    background-color: rgb(0 0 0 / 9%); */
+    height: 100%;
 }
 .text-box1 {
     display: flex;
@@ -111,13 +125,36 @@ body{
 }
 .prime-head{
     color:#09143E;
-    font-size: 3.4vw !important;
+    font-size: 45px !important;
     letter-spacing: 2.03px !important;
     line-height: 4.3vw !important;
     font-weight: 600;
 }
 .prime-sub{
     font-style: italic;
-    font-size: 3vw !important;
+    font-size: 2.8vw !important;
     font-family: Sabon LT Std;
+}
+.primepricetag{
+    font-size: 28px;
+    color: #09143E;
+    font-weight: 400;
+}
+.start-price-inr {
+    font-size: 28px;
+    font-weight: bold;
+    color: #09143E;
+    background-color: #F4AE2A;
+    padding: 6px;
+    font-weight: 700;
+}
+.courselist{
+    color: #09143E !important;
+    font-size:22px;
+    text-transform: uppercase;
+}
+.candidateform{
+    background: #343634 !important;
+    border-radius: 10px;
+    height: calc(100% - 10px);
 }
